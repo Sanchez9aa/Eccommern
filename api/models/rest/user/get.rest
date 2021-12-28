@@ -1,0 +1,18 @@
+
+//Get all users
+
+GET http://localhost:8800/api/users HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYjhiOWMwYTNlMTY4NzE3NDJjNWQyYyIsImlhdCI6MTYzOTQ5NjY5MiwiZXhwIjoxNjQwMTAxNDkyfQ.1S4ctuS6D0lo5yFAl__w07zgyBDYTU1UWG8TlsyypXU
+###
+
+//Get user by id
+
+GET http://localhost:8800/api/users/61c9a8021f0271f7b59320b7 HTTP/1.1
+
+###
+
+//Get all users stats
+
+GET http://localhost:8800/api/ HTTP/1.1
+
+###

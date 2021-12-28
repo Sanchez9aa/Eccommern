@@ -1,0 +1,17 @@
+//Create a product 
+POST http://localhost:8800/api/carts HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+Content-Type: application/json
+
+{
+  "userId":"61c9a8021f0271f7b59320b7",
+  "products":
+  [
+    {
+      "productId": "61ca44ce6dd2f5c42b5d0d06", 
+      "quantity": 1
+      }
+  ]
+}
+
+###

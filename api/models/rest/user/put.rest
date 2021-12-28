@@ -1,0 +1,9 @@
+//Change user info
+
+PUT http://localhost:3002/api/users/618d14cc481c205a4a8ca876 HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxOGQxNGNjNDgxYzIwNWE0YThjYTg3NiIsImlhdCI6MTYzNjYzODM5NywiZXhwIjoxNjM3MjQzMTk3fQ.KIupOQ93Cg1utO26A1zUwMreY6fnJeBacK8ymOarg1U 
+Content-Type: application/json
+
+{
+  "username": "Jesus"
+}

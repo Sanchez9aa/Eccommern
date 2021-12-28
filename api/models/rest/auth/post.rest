@@ -1,0 +1,21 @@
+//Create an user 
+POST http://localhost:8800/api/auth/register HTTP/1.1 
+Content-Type: application/json
+
+{
+  "username": "Jesus", 
+  "email": "jesus@gmail.com", 
+  "password": "test1234"
+}
+
+###
+
+//Login
+
+POST http://localhost:8800/api/auth/login HTTP/1.1 
+Content-Type: application/json
+
+{
+  "username": "Jesus", 
+  "password": "test1234"
+}

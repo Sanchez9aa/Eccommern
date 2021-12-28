@@ -1,0 +1,13 @@
+//Get all products
+
+GET http://localhost:8800/api/products HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+
+###
+
+//Get product by categories
+
+GET http://localhost:8800/api/products?category=hoodie HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+
+###

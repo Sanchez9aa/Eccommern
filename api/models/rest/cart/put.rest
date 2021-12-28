@@ -1,0 +1,16 @@
+//Modify a product 
+PUT http://localhost:8800/api/carts/61ca4f21b1960cd48ca0e374 HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+Content-Type: application/json
+
+{
+  "products":
+  [
+    {
+      "productId": "61ca44ce6dd2f5c42b5d0d06", 
+      "quantity": 4
+      }
+  ]
+}
+
+###

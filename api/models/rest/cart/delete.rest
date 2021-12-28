@@ -1,0 +1,4 @@
+DELETE http://localhost:8800/api/carts/61ca54d576a00a9e7f2222e8 HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+
+###

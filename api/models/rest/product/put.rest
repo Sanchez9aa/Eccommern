@@ -1,0 +1,10 @@
+//Modify a product 
+PUT http://localhost:8800/api/product/61c9b515ccf59394100e6bab HTTP/1.1
+token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxYzlhODAyMWYwMjcxZjdiNTkzMjBiNyIsImlhdCI6MTY0MDYwNjUxMywiZXhwIjoxNjQxMjExMzEzfQ.b1U531SsC2zV-jnHzNBxS2ks0qUFu0s5cIAIC89RGss
+Content-Type: application/json
+
+{
+  "title": "Camiseta blanca de mango"
+}
+
+###
